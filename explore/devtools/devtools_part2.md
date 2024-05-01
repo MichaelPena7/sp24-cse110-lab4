@@ -1,0 +1,2 @@
+1. The bug was that both num1 and num2 are being passed as strings, resulting in the inner + operation doing string concatenation rather than the intended result, leading to program to return things such as 2 + 3 = 23.
+2. I fixed it by forcing num1 and num2 to be integers/numbers through using the "parseInt()" function to pass integer strings as just integers in base 10.

@@ -42,4 +42,8 @@ function printNums() {
     console.log(4);
 }
 
-printNums();
+function calculateSum(num1, num2) {
+    let result = num1 + num2
+    return result
+  }
+console.log(calculateSum('2', '3'))
